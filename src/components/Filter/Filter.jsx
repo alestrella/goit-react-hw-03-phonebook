@@ -7,7 +7,7 @@ const Filter = ({ value, onChange }) => {
     <Box mb={5}>
       <Label>
         Find contacts by name
-        <Field value={value} onChange={onChange} placeholder="Type to search" />
+        <Field value={value} onChange={onChange} placeholder="Enter name" />
       </Label>
     </Box>
   );

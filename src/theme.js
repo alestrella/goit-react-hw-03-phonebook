@@ -1,13 +1,15 @@
 export const theme = Object.freeze({
   colors: {
-    text: '#212121',
+    text: '#dddddd',
     textSecondary: '#757575',
     border: '#CAD3DC',
     green: '#a8e786',
-    blue: '#86a8e7',
+    accent: '#7f7fd5',
     red: '#e786a8',
     white: '#fff',
     bg: '#dbe5f8',
+    bgDark: '#2A292E',
+    hover: '#86a8e7',
   },
   space: [0, 2, 4, 8, 16, 32, 64, 128, 256],
   fonts: {

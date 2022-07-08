@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import PropTypes from 'prop-types';
-import { Form, Button, Label, Field } from './ContactForm';
+import { Form, Button, Label, Field } from './ContactForm.styled';
 
 const INITIAL_VALUES = {
   name: '',

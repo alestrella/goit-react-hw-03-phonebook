@@ -84,32 +84,32 @@ export class App extends Component {
     const filteredContacts = this.filterContacts();
 
     return (
-      <Box height="100vh" pt={4} fontFamily="body" as="main">
+      <Box py={5} fontFamily="body" as="main">
         <MainHeading>Phonebook</MainHeading>
         <Box
-          maxWidth="600px"
+          maxWidth="480px"
           my={0}
           mx="auto"
           px={4}
-          minHeight="400px"
+          // minHeight="400px"
           borderRadius="middle"
         >
           <Box
             px={4}
             py={4}
-            mb={4}
+            mb={5}
             boxShadow="card"
             borderRadius="normal"
-            bg="white"
+            bg="bgDark"
           >
-            <Heading>Add new contact</Heading>
+            <Heading>New contact</Heading>
             <ContactForm
               onSubmit={this.handleFormSubmit}
               checkDuplicates={this.checkDuplicateContactName}
             />
           </Box>
 
-          <Box px={5} py={4} borderRadius="normal" bg="white">
+          <Box px={5} py={4} borderRadius="normal" bg="bgDark">
             <Heading>Contacts</Heading>
             <Filter value={filter} onChange={this.handleFilter} />
             <ContactList
